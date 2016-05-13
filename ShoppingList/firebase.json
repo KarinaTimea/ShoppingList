@@ -1,0 +1,9 @@
+{
+  "firebase": "karinasshopping",
+  "public": "website",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

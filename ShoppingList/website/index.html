@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  />
+<link rel="stylesheet" href="style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Karina's shopping list</title>
+
+</head>
+
+<body>
+	<div class="container">
+    	<h2>Welcome to my shopping list</h2>
+        <form>
+        	<input type="text" class="form-control" placeholder="Product name" id="productInput">
+            <input type="text" class="form-control" placeholder="Amount" id="productQuantity">
+            <button class="btn btn-default" id="addButton" >Add</button>
+            <button class="btn btn-default" id="deleteButton" >Delete</button>
+        </form>	
+        
+        <ul class="list-unstyled" id="productsList"></ul>
+	</div>
+    
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="firebaseStuff.js"></script>
+</body>
+</html>
